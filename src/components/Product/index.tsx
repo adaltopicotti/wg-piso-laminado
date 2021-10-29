@@ -15,7 +15,7 @@ const Product = ({img, link}: ProductProps) => {
         <div className={styles.productCircle}></div>
         <div className={styles.productCircle}></div>
       </div>
-      <a href="https://adaltopicotti.github.io" target="_blank">
+      <a href="https://adaltopicotti.github.io" target="_blank" rel="noreferrer">
         <img src={img} alt="" className={styles.productImage} />
       </a>
     </div>

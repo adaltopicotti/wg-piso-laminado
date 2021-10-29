@@ -8,7 +8,7 @@ type ThemeContextProps = {
 };
 export const ThemeContext = createContext({} as ThemeContextProps);
 
-const INITIAL_STATE = { darkMode: true };
+const INITIAL_STATE = { darkMode: false };
 
 const themeReducer = (state: any, action: any) => {
   switch (action.type) {
